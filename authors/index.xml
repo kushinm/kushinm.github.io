@@ -5,7 +5,7 @@
     <link>https://kushinm.github.io./authors/</link>
       <atom:link href="https://kushinm.github.io./authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Kushin Mukherjee</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://kushinm.github.io./images/icon_huc9b927772481580fa4e59f847504a1fa_271315_512x512_fill_lanczos_center_2.png</url>
       <title>Authors</title>
@@ -29,10 +29,10 @@
     </item>
     
     <item>
-      <title>Robert Hawkins</title>
-      <link>https://kushinm.github.io./authors/robert-hawkins/</link>
+      <title>Robert D. Hawkins</title>
+      <link>https://kushinm.github.io./authors/robert-d.-hawkins/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://kushinm.github.io./authors/robert-hawkins/</guid>
+      <guid>https://kushinm.github.io./authors/robert-d.-hawkins/</guid>
       <description></description>
     </item>
     
