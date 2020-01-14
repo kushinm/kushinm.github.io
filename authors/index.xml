@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Kushin Mukherjee</title>
+    <link>https://kushinm.github.io./authors/</link>
+      <atom:link href="https://kushinm.github.io./authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://kushinm.github.io./images/icon_huc9b927772481580fa4e59f847504a1fa_271315_512x512_fill_lanczos_center_2.png</url>
+      <title>Authors</title>
+      <link>https://kushinm.github.io./authors/</link>
+    </image>
+    
+    <item>
+      <title>Judith Fan</title>
+      <link>https://kushinm.github.io./authors/judith-fan/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://kushinm.github.io./authors/judith-fan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kushin Mukherjee</title>
+      <link>https://kushinm.github.io./authors/kushin-mukherjee/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://kushinm.github.io./authors/kushin-mukherjee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robert Hawkins</title>
+      <link>https://kushinm.github.io./authors/robert-hawkins/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://kushinm.github.io./authors/robert-hawkins/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kushinm.github.io./authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kushinm.github.io./authors/admin/</guid>
+      <description>&lt;p&gt;I&#39;m a first year Psychology PhD student at the University of Wisconsin, Madison.
+My primary interest is in the nature of visual concepts. How are they learned? Why are they useful? Can machines be taught these concepts? I study drawings as a means to answer these questions.&lt;/p&gt;
+&lt;p&gt;I&#39;m affiliated with the &lt;a href=&#34;http://concepts.psych.wisc.edu/&#34; target=&#34;_blank&#34;&gt;Knowledge and Concepts Lab&lt;/a&gt;,
+&lt;a href=&#34;https://schlosslab.discovery.wisc.edu/&#34; target=&#34;_blank&#34;&gt;Schloss Visual Reasoning Lab&lt;/a&gt;,
+&lt;a href=&#34;https://alab.psych.wisc.edu/&#34; target=&#34;_blank&#34;&gt;Austerweil Lab&lt;/a&gt;,
+and the &lt;a href=&#34;https://wid.wisc.edu/people/kushin-mukherjee/&#34; target=&#34;_blank&#34;&gt;Wisconsin Institute for Discovery&lt;/a&gt;.
+I grew up in Calcutta, India, a bustling city with hot summers and torrential monsoons. Noticing a distinct lack of snow in my climate collection, I moved to upstate New York, where I received my AB in Cognitive Science and Japanese from Vassar College.&lt;/p&gt;
+&lt;p&gt;While at Vassar, I was advised by Ken Livingston and Josh de Leeuw.
+I also spent a summer at the Computation and Cognition Lab at Stanford University as a CSLI intern, working with Judy Fan and Robert Hawkins.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
