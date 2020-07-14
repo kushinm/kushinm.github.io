@@ -1,3 +1,2 @@
 # Hello world! 
-Find my site here - 
-kushinm.github.io
+Find my site [here](kushinm.github.io)
