@@ -1,34 +1,41 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Fan":
+  - firstname: ["Judith E"]
+    url: https://cogtoolslab.github.io/about.html
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Gleicher":
+  - firstname: ["Michael"]
+    url: https://gleicher.sites.cs.wisc.edu/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Hawkins":
+  - firstname: ["Robert D"]
+    url: https://rxdhawkins.com/ 
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Huey":
+  - firstname: ["Holly"]
+    url: https://hollyhuey.github.io/
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Lessard":
+  - firstname: ["Laurent"]
+    url: https://laurentlessard.com/
 
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
 
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"Rogers":
+  - firstname: ["Timothy T"]
+    url: https://psych.wisc.edu/staff/rogers-timothy-t/
 
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Schloss":
+  - firstname: ["Karen B"]
+    url: https://schlosslab.discovery.wisc.edu/
+
+"Schoenlein":
+  - firstname: ["Melissa A"]
+    url: https://wid.wisc.edu/people/melissa-schoenlein/
+
+
+"Yin":
+  - firstname: ["Brian"]
+    url: http://brianyin.me/
+
+
+

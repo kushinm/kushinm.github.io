@@ -1,25 +1,33 @@
 ---
 layout: about
-title: about
+title: home
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <p>kmukherjee2 at wisc dot edu</p>
+
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: prof_pic.jpeg
+  image_circular: true # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
+<div style = "width:470px">
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a fourth year Psychology PhD student at the <a href="https://www.wisc.edu/" target="_blank"> UW-Madison</a>.
+My primary interest is in the nature of visual concepts. How are they <strong>learned</strong>? How are they <strong>structured</strong>? Can <strong>machines</strong> be taught these concepts? 
+I believe the act of <i>communication</i> can shed much light on the answers to these questions, and so I study how we use drawings and information visualiztions to convey our knowledge of the world to each other.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<p>I'm affiliated with the <a href="http://concepts.psych.wisc.edu/" target="_blank">Knowledge and Concepts Lab</a>,
+<a href="https://schlosslab.discovery.wisc.edu/" target="_blank">Schloss Visual Reasoning Lab</a>,
+and the <a href="https://wid.wisc.edu/people/kushin-mukherjee/" target="_blank">Wisconsin Institute for Discovery</a>.
+I grew up in <a href="https://en.wikipedia.org/wiki/Kolkata" target="_blank">Kolkata, India</a>, a bustling city with hot summers and torrential monsoons. Noticing a distinct lack of snow in my climate collection, I moved to upstate New York, where I received my BA in Cognitive Science and Japanese from <a href="https://www.vassar.edu/" target="_blank">Vassar College</a>.</p>
+<p>While at Vassar, I was advised by <a href="https://www.vassar.edu/faculty/livingst/" target="_blank">Ken Livingston</a> and
+<a href="https://www.vassar.edu/faculty/jdeleeuw/" target="_blank">Josh de Leeuw</a>.
+I also spent a summer at the <a href="https://cocolab.stanford.edu/ndg.html" target="_blank">Computation and Cognition Lab</a> at Stanford University as a <a href="https://www-csli.stanford.edu/" target="_blank">CSLI intern</a>, working with <a href="https://cogtoolslab.github.io/" target="_blank">Judy Fan</a> and <a href="https://rxdhawkins.com/" target="_blank">Robert Hawkins</a>.</p>
+</div>

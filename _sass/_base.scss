@@ -6,6 +6,7 @@
 
 p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
   color: var(--global-text-color);
+  // font-family: 'Rubik'
 }
 
 hr {
@@ -494,9 +495,9 @@ footer.sticky-bottom {
     li {
       margin-bottom: 1rem;
       .preview {
-        width: 100%;
-        min-width: 80px;
-        max-width: 200px;
+        width: 120%;
+        min-width: 120px;
+        max-width: 400px;
       }
       .abbr {
         height: 2rem;
