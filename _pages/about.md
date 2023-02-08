@@ -30,4 +30,6 @@ I grew up in <a href="https://en.wikipedia.org/wiki/Kolkata" target="_blank">Kol
 <p>While at Vassar, I was advised by <a href="https://www.vassar.edu/faculty/livingst/" target="_blank">Ken Livingston</a> and
 <a href="https://www.vassar.edu/faculty/jdeleeuw/" target="_blank">Josh de Leeuw</a>.
 I also spent a summer at the <a href="https://cocolab.stanford.edu/ndg.html" target="_blank">Computation and Cognition Lab</a> at Stanford University as a <a href="https://www-csli.stanford.edu/" target="_blank">CSLI intern</a>, working with <a href="https://cogtoolslab.github.io/" target="_blank">Judy Fan</a> and <a href="https://rxdhawkins.com/" target="_blank">Robert Hawkins</a>.</p>
+
 </div>
+
