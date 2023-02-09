@@ -20,7 +20,7 @@ social: false  # includes social icons at the bottom of the page
 
 I am a fourth year Psychology PhD student at <a href="https://www.wisc.edu/" target="_blank"> UW-Madison</a>.
 My primary interest is in the nature of visual concepts. How are they <strong>learned</strong>? How are they <strong>structured</strong>? Can <strong>machines</strong> be taught these concepts? 
-I believe the act of <i>communication</i> can shed much light on the answers to these questions, and so I study how we use drawings and information visualiztions to convey our knowledge of the world to each other.
+I believe the act of <i>communication</i> can shed much light on the answers to these questions, and so I study how we use drawings and information visualizations to convey our knowledge of the world to each other.
 
 
 <p>I'm affiliated with the <a href="http://concepts.psych.wisc.edu/" target="_blank">Knowledge and Concepts Lab</a>,
