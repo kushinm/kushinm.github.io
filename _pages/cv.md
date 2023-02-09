@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /assets/pdf/mukherjee_kushin_CV.pdf
+permalink: /assets/pdf/KM_CV_2023.pdf
 title: cv
 nav: true
 nav_order: 4
