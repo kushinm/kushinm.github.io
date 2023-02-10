@@ -26,12 +26,12 @@ I believe the act of <i>communication</i> can shed much light on the answers to 
 <p>I'm affiliated with the <a href="http://concepts.psych.wisc.edu/" target="_blank">Knowledge and Concepts Lab</a>,
 <a href="https://schlosslab.discovery.wisc.edu/" target="_blank">Schloss Visual Reasoning Lab</a>,
 and the <a href="https://wid.wisc.edu/people/kushin-mukherjee/" target="_blank">Wisconsin Institute for Discovery</a>.
+I've also been very fortunate to be a <a href="https://kohlerfellows.illuminatingdiscovery.wisc.edu/" target="_blank">Kohler Fellow</a> at WID, which has let me think about how science and art can intersect to give rise to fun<a href="https://vimeo.com/widiscovery?embedded=true&source=owner_portrait&owner=11934839" target="_blank"> new ideas</a>.
 I grew up in <a href="https://en.wikipedia.org/wiki/Kolkata" target="_blank">Kolkata, India</a>, a bustling city with hot summers and torrential monsoons. Noticing a distinct lack of snow in my climate collection, I moved to upstate New York, where I received my BA in Cognitive Science and Japanese from <a href="https://www.vassar.edu/" target="_blank">Vassar College</a>.</p>
 <p>While at Vassar, I was advised by <a href="https://www.vassar.edu/faculty/livingst/" target="_blank">Ken Livingston</a> and
 <a href="https://www.vassar.edu/faculty/jdeleeuw/" target="_blank">Josh de Leeuw</a>.
 I also spent a summer at the <a href="https://cocolab.stanford.edu/ndg.html" target="_blank">Computation and Cognition Lab</a> at Stanford University as a <a href="https://www-csli.stanford.edu/" target="_blank">CSLI intern</a>, working with <a href="https://cogtoolslab.github.io/" target="_blank">Judy Fan</a> and <a href="https://rxdhawkins.com/" target="_blank">Robert Hawkins</a>.</p>
 
-I've also been very fortunate to be a <a href="https://kohlerfellows.illuminatingdiscovery.wisc.edu/" target="_blank">Kohler Fellow</a> at WID, which has let me think about how science and art can intersect to give rise to fun<a href="https://vimeo.com/widiscovery?embedded=true&source=owner_portrait&owner=11934839" target="_blank"> new ideas</a>.
 
 </div>
 
