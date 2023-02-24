@@ -23,7 +23,7 @@ My primary interest is in the nature of visual concepts. How are they <strong>le
 I believe the act of <i>communication</i> can shed much light on the answers to these questions, and so I study how we use drawings and information visualizations to convey our knowledge of the world to each other.
 
 
-<p>I'm affiliated with the <a href="http://concepts.psych.wisc.edu/" target="_blank">Knowledge and Concepts Lab</a>,
+<p>I'm based in the <a href="http://concepts.psych.wisc.edu/" target="_blank">Knowledge and Concepts Lab</a>,
 <a href="https://schlosslab.discovery.wisc.edu/" target="_blank">Schloss Visual Reasoning Lab</a>,
 and the <a href="https://wid.wisc.edu/people/kushin-mukherjee/" target="_blank">Wisconsin Institute for Discovery</a>.
 I've also been very fortunate to be a <a href="https://kohlerfellows.illuminatingdiscovery.wisc.edu/" target="_blank">Kohler Fellow</a> at WID, which has let me think about how science and art can intersect to give rise to fun<a href="https://vimeo.com/755598302" target="_blank"> new ideas</a>. I believe we do our best science when working collaboratively as groups and so I can often be found in <i>virtual</i> meeting rooms with members of the <a href="https://cogtoolslab.github.io/" target="_blank">Cognitive Tools Lab</a>, <a href="https://vital-kolab.org/" target="_blank">Visual Intelligence and Technological Advances Lab</a>, and <a href="https://ncclab.princeton.edu/" target="_blank">Neuroscience of Cognitive Control Lab</a>.</p>
