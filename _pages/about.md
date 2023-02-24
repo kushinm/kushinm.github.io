@@ -30,7 +30,7 @@ I've also been very fortunate to be a <a href="https://kohlerfellows.illuminatin
 
 <p>I grew up in <a href="https://en.wikipedia.org/wiki/Kolkata" target="_blank">Kolkata, India</a>, a bustling city with hot summers and torrential monsoons. Noticing a distinct lack of snow in my climate collection, I moved to upstate New York, where I received my BA in Cognitive Science and Japanese from <a href="https://www.vassar.edu/" target="_blank">Vassar College</a>.
 While at Vassar, I was advised by <a href="https://www.vassar.edu/faculty/livingst/" target="_blank">Ken Livingston</a> and <a href="https://www.vassar.edu/faculty/jdeleeuw/" target="_blank">Josh de Leeuw</a>.
-I also spent a summer at the <a href="https://cocolab.stanford.edu/ndg.html" target="_blank">Computation and Cognition Lab</a> at Stanford University as a <a href="https://www-csli.stanford.edu/" target="_blank">CSLI intern</a>, working with <a href="https://cogtoolslab.github.io/" target="_blank">Judy Fan</a> and <a href="https://rxdhawkins.com/" target="_blank">Robert Hawkins</a>.</p>
+I also spent a summer at the <a href="https://cocolab.stanford.edu/ndg.html" target="_blank">Computation and Cognition Lab</a> at Stanford as a <a href="https://www-csli.stanford.edu/" target="_blank">CSLI intern</a>, working with <a href="https://cogtoolslab.github.io/" target="_blank">Judy Fan</a> and <a href="https://rxdhawkins.com/" target="_blank">Robert Hawkins</a>.</p>
 
 
 </div>
