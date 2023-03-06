@@ -19,6 +19,13 @@ Josh for being a cornerstone of my academic growth. For giving me a vision of wh
 To Ken, for being an ideal to aspire towards. For showing me that knowledge can be beautiful and that sharing it can be the most joyful experience.
 ...I'm tearing up too much, will finish later.
 
+To my friends, who I do a terrible job of reaching out to and conveying how lucky I was to be able to have them in my life. You made my life sparkle in so many colors, I often find myself just sitting and basking in the afterglow of gratitude. I hope you all know that I have love in my heart for each of you, even if I have never had the chance to express it.
+
+Tommy, for being a constant unwavering source of wit and joviality. For seeing me through my worst and being able to see the best in me. For being a better friend to me than I could ever be to you. I am grateful.
+
+Frida, for choosing to  to be my friend no matter howw far I fall. For choosing to look past all the performative nonsense and choosing to still think fondly of whatever's left after that. For being kind and a constant friend.
+
+Yina for being one of the first hands of friendships extended to me in this country. For showing me how deep one's vessel for friendship can be. For smiling even when others couldn't. Some anime shit.
 
 
 
