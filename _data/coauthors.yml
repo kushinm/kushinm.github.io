@@ -15,9 +15,17 @@
   - firstname: ["Holly"]
     url: https://hollyhuey.github.io/
 
+"Kar":
+  - firstname: ["Kohitij"]
+    url: https://vital-kolab.org/personnel/ 
+
 "Lessard":
   - firstname: ["Laurent"]
     url: https://laurentlessard.com/
+
+"Lu"
+  - firstname: ["Xuanchen"]
+    url: https://xuanchenlu.com/ 
 
 "Rogers":
   - firstname: ["Timothy T"]
@@ -30,6 +38,10 @@
 "Schoenlein":
   - firstname: ["Melissa A"]
     url: https://wid.wisc.edu/people/melissa-schoenlein/
+
+"Suresh"
+  - firstname: ["Siddharth"]
+    url: https://www.sidsuresh.com/
 
 "Shamir"
   - firstname: ["Ariel"]
