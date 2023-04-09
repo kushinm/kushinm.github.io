@@ -19,7 +19,6 @@
   - firstname: ["Laurent"]
     url: https://laurentlessard.com/
 
-
 "Rogers":
   - firstname: ["Timothy T"]
     url: https://psych.wisc.edu/staff/rogers-timothy-t/
@@ -32,6 +31,13 @@
   - firstname: ["Melissa A"]
     url: https://wid.wisc.edu/people/melissa-schoenlein/
 
+"Shamir"
+  - firstname: ["Ariel"]
+    url: https://faculty.runi.ac.il/arik/site/index.asp
+
+"Vinker"
+  - firstname: ["Yael"]
+    url: https://yael-vinker.github.io/website/
 
 "Yin":
   - firstname: ["Brian"]
