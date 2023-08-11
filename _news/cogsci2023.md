@@ -1,7 +1,6 @@
 ---
 layout: post
-date: 2023-04-07 
+date: 2023-07-26
 inline: true
 ---
-
-Our paper **Evaluating machine comprehension of sketch meaning at different levels of abstraction** was accepted to [CogSci 2023](https://cognitivesciencesociety.org/cogsci-2023/) for a poster presentation. Preprint forthcoming!
+We presented two posters at [CogSci 2023](https://cognitivesciencesociety.org/cogsci-2023/).  **Evaluating machine comprehension of sketch meaning at different levels of abstraction** and **Behavioral estimates of conceptual structure are robust across tasks in humans but not large language models**. See publications for more details~
