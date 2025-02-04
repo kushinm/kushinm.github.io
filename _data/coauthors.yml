@@ -2,9 +2,17 @@
   - firstname: ["Ralph"]
     url: https://emotion.caltech.edu/
 
+"Cohen":
+  - firstname: ["Jonathan D"]
+    url: https://pni.princeton.edu/people/jonathan-cohen
+
 "Fan":
   - firstname: ["Judith E"]
     url: https://cogtoolslab.github.io/about.html
+
+"Giallanza":
+  - firstname: ["Tyler"]
+    url: https://tylergiallanza.github.io/
 
 "Gleicher":
   - firstname: ["Michael"]
