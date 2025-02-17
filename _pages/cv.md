@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /assets/pdf/KM_CV_2023.pdf
+permalink: /assets/pdf/KM_CV_2025.pdf
 title: cv
 nav: true
 nav_order: 4
