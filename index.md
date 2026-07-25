@@ -15,8 +15,8 @@ permalink: /
     <div class="profile float-right">
       <img class="img-fluid z-depth-1 rounded-rect" src="{{ '/assets/img/prof_pic.jpeg' | relative_url }}" alt="prof_pic.jpeg" width="auto" height="auto">
       <div class="address">
-        Building 420<br>
         Department of Psychology<br>
+        Building 420<br>
         450, Jane Stanford Way<br>
         Stanford, CA 94305
       </div>
