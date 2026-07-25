@@ -30,6 +30,9 @@ If you just want to add a paper or a news item, skip to
 ├── personal.md              personal links (Goodreads, HowLongToBeat, etc.)
 ├── news.md                  full news list (linked from the homepage)
 │
+├── bin/
+│   └── add_publication      interactive script to add a paper — see below
+│
 ├── _data/
 │   ├── publications.yml     ← the publication list. Edit this to add a paper.
 │   ├── news.yml              ← the news list. Edit this to add a news item.
@@ -72,20 +75,46 @@ server.
 
 ## Adding a publication
 
-Open `_data/publications.yml` and add an entry near the top (entries are
-newest-first; the publications page groups them by `year` automatically —
-there's no separate list to keep in sync). Each entry looks like:
+**The easy way:** run `bin/add_publication` and answer its prompts (authors,
+title, year, venue, and optionally a PDF/preview image to copy in). It
+computes the filename key for you, checks for collisions, copies the files,
+and inserts the new entry at the top of `_data/publications.yml`. Review the
+diff, then `bundle exec jekyll build` to check it renders before committing.
+
+**By hand:** open `_data/publications.yml` and add an entry near the top
+(entries are newest-first; the publications page groups them by `year`
+automatically — there's no separate list to keep in sync). Each entry looks
+like:
 
 ```yaml
-- title: Your paper title
+- key: doe_cogsci_2026
+  title: Your paper title
   authors:
     - {first: Kushin, last: Mukherjee}   # use this exact spelling — it renders bold as "you"
     - {first: Jane, last: Doe}
   journal: Some Conference or Journal
   year: 2026
-  preview: your_paper.png    # optional — put the image in assets/img/publication_preview/
-  pdf: your_paper.pdf        # optional — put the PDF in assets/pdf/
 ```
+
+`key` names the paper's files — `assets/pdf/{key}.pdf` and
+`assets/img/publication_preview/{key}.png` — and both are optional; if a
+file at that path doesn't exist, its element (PDF button / preview image)
+is just omitted. There's no separate `pdf:`/`preview:` field to keep in
+sync, so the two can't drift apart the way they used to.
+
+**Key naming convention:**
+
+| Case | Pattern | Example |
+|------|---------|---------|
+| Published | `{first-author-lastname}_{venue-abbrev}_{year}` | `mukherjee_vis_2021`, `suresh_cogsci_2025` |
+| Unpublished / pre-print | `{first-author-lastname}_{topic-word}_prepub` | `verma_chart6_prepub` — rename to a real key once it's accepted somewhere |
+| Same author, same venue+year twice | append a short disambiguator | `studdiford_colm_2026_steering` / `studdiford_colm_2026_factors` |
+
+Reuse an existing venue abbreviation where one already exists (`cogsci` for
+Cognitive Science Society proceedings, `vis` for IEEE VIS/TVCG, `neurips`,
+`emnlp`, `iclr`, `iclrtiny`, `ccn`, `nrp`, `srvhm`, `mc`, `brm`, `pnas`,
+`chi`, `colm`, `vispsych`, ...) rather than inventing a new one for the same
+venue — check `_data/publications.yml` for what's already there.
 
 Optional fields, only set them if the paper needs them:
 

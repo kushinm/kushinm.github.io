@@ -1,8 +1,12 @@
 {%- assign entry = include.entry -%}
+{%- assign preview_path = "/assets/img/publication_preview/" | append: entry.key | append: ".png" -%}
+{%- assign pdf_path = "/assets/pdf/" | append: entry.key | append: ".pdf" -%}
+{%- assign has_preview = site.static_files | where: "path", preview_path -%}
+{%- assign has_pdf = site.static_files | where: "path", pdf_path -%}
 <div class="row">
   <div class="col-sm-2 preview">
-    {% if entry.preview %}
-    <img class="preview z-depth-1 rounded" src="{{ '/assets/img/publication_preview/' | append: entry.preview | relative_url }}" alt="{{ entry.title }}" loading="lazy">
+    {% if has_preview.size > 0 %}
+    <img class="preview z-depth-1 rounded" src="{{ preview_path | relative_url }}" alt="{{ entry.title }}" loading="lazy">
     {% endif %}
   </div>
 
@@ -45,9 +49,9 @@
     </div>
     {% if entry.note %}<div class="periodical">{{ entry.note }}</div>{% endif %}
 
-    {% if entry.pdf %}
+    {% if has_pdf.size > 0 %}
     <div class="links">
-      <a href="{{ '/assets/pdf/' | append: entry.pdf | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      <a href="{{ pdf_path | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
     </div>
     {% endif %}
   </div>

@@ -1,0 +1,158 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# Interactive helper for adding a new entry to _data/publications.yml,
+# following the naming convention documented at the top of that file:
+#   published:   {first-author-lastname}_{venue-abbrev}_{year}
+#   unpublished: {first-author-lastname}_{topic-word}_prepub
+#
+# Usage (from the repo root): bin/add_publication
+#
+# It prompts for the publication's details, computes the key, optionally
+# copies a PDF and/or preview image into assets/, and inserts a new entry
+# at the top of _data/publications.yml. Review the diff before committing —
+# this hand-formats YAML text rather than round-tripping the whole file, to
+# avoid disturbing existing entries' formatting or comments.
+
+require 'yaml'
+require 'fileutils'
+
+ROOT = File.expand_path('..', __dir__)
+PUBLICATIONS_FILE = File.join(ROOT, '_data', 'publications.yml')
+PDF_DIR = File.join(ROOT, 'assets', 'pdf')
+PREVIEW_DIR = File.join(ROOT, 'assets', 'img', 'publication_preview')
+
+def ask(prompt)
+  loop do
+    print "#{prompt}: "
+    answer = $stdin.gets&.strip
+    return answer if answer && !answer.empty?
+
+    puts '  (required — please enter a value)'
+  end
+end
+
+def ask_optional(prompt)
+  print "#{prompt} (press enter to skip): "
+  answer = $stdin.gets&.strip
+  answer.nil? || answer.empty? ? nil : answer
+end
+
+def slugify(text)
+  text.downcase.gsub(/[^a-z0-9]+/, '')
+end
+
+def existing_keys
+  return [] unless File.exist?(PUBLICATIONS_FILE)
+
+  YAML.load_file(PUBLICATIONS_FILE).map { |e| e['key'] }
+rescue StandardError
+  # Fall back to a plain scan if anything about the file trips up YAML.load
+  File.read(PUBLICATIONS_FILE).scan(/^- key:\s*(\S+)/).flatten
+end
+
+def yaml_scalar(str)
+  str = str.to_s
+  needs_quotes = str.match?(/[:#\[\]{}&*!|>'"%@`]/) || str.start_with?(' ') || str.end_with?(' ')
+  needs_quotes ? str.inspect : str
+end
+
+puts '== Add a publication =='
+puts
+
+puts 'Authors, in order, one per line as "First Last" (blank line to finish):'
+authors = []
+loop do
+  print "  Author #{authors.length + 1}: "
+  line = $stdin.gets&.strip
+  break if line.nil? || line.empty?
+
+  parts = line.split(' ')
+  if parts.length < 2
+    puts '    Need at least a first and last name, e.g. "Jane Doe"'
+    next
+  end
+  last = parts.pop
+  first = parts.join(' ')
+  authors << { 'first' => first, 'last' => last }
+end
+abort 'Need at least one author.' if authors.empty?
+puts
+
+title = ask('Title')
+year_input = ask('Year (a number, or "pre-pub" if not yet accepted anywhere)')
+is_prepub = year_input.strip.downcase == 'pre-pub'
+
+journal = if is_prepub
+            ask_optional('Journal/venue (leave blank if truly unplaced)')
+          else
+            ask('Journal/venue')
+          end
+
+first_last_slug = slugify(authors.first['last'])
+
+if is_prepub
+  topic = ask('Short topic word for the filename (e.g. "drawings", "colorspace") ' \
+              '— this becomes the provisional key; rename it once accepted somewhere')
+  venue_slug = slugify(topic)
+  year_slug = 'prepub'
+else
+  venue_slug = ask('Short venue abbreviation for the filename (e.g. "cogsci", "vis", "neurips") ' \
+                    "— check _data/publications.yml's header comment for existing ones to reuse")
+  venue_slug = slugify(venue_slug)
+  year_slug = year_input.strip
+end
+
+base_key = "#{first_last_slug}_#{venue_slug}_#{year_slug}"
+key = base_key
+keys = existing_keys
+if keys.include?(key)
+  puts "\"#{key}\" already exists."
+  suffix = ask("Add a short disambiguating suffix (e.g. the other paper's topic word)")
+  key = "#{base_key}_#{slugify(suffix)}"
+  abort "\"#{key}\" also already exists — pick something more specific and re-run." if keys.include?(key)
+end
+puts "\nUsing key: #{key}\n\n"
+
+badge = ask_optional('Award/badge line (bold italic under the title, e.g. "Best Paper Award")')
+progress = ask_optional('Progress status (e.g. "(under review)", "(in press)")')
+note = ask_optional('Extra citation note (e.g. "Also appeared in...")')
+pdf_source = ask_optional("Path to a PDF to copy in as assets/pdf/#{key}.pdf")
+preview_source = ask_optional("Path to a preview image to copy in as assets/img/publication_preview/#{key}.png")
+
+if pdf_source
+  abort "No such file: #{pdf_source}" unless File.exist?(pdf_source)
+
+  FileUtils.cp(pdf_source, File.join(PDF_DIR, "#{key}.pdf"))
+  puts "Copied PDF to assets/pdf/#{key}.pdf"
+end
+
+if preview_source
+  abort "No such file: #{preview_source}" unless File.exist?(preview_source)
+
+  FileUtils.cp(preview_source, File.join(PREVIEW_DIR, "#{key}.png"))
+  puts "Copied preview to assets/img/publication_preview/#{key}.png"
+end
+
+lines = []
+lines << "- key: #{key}"
+lines << "  title: #{yaml_scalar(title)}"
+lines << '  authors:'
+authors.each { |a| lines << "    - {first: #{a['first']}, last: #{a['last']}}" }
+lines << "  journal: #{yaml_scalar(journal)}" if journal
+lines << "  year: #{is_prepub ? 'pre-pub' : year_input.strip}"
+lines << "  badge: #{yaml_scalar(badge)}" if badge
+lines << "  progress: #{yaml_scalar(progress)}" if progress
+lines << "  note: #{yaml_scalar(note)}" if note
+entry_text = "#{lines.join("\n")}\n\n"
+
+original = File.read(PUBLICATIONS_FILE)
+insertion_point = original.index(/^- key:/)
+abort "Couldn't find where to insert into #{PUBLICATIONS_FILE} — is it empty or malformed?" unless insertion_point
+
+updated = original[0...insertion_point] + entry_text + original[insertion_point..]
+File.write(PUBLICATIONS_FILE, updated)
+
+puts
+puts "Added \"#{key}\" to the top of _data/publications.yml."
+puts 'Next: bundle exec jekyll build (or serve) to check it renders, then commit + push.'
