@@ -46,6 +46,7 @@ site/
 │   ├── head.html            <head>: CDN CSS/font links, page title
 │   ├── nav.html             navbar (social icons on `/`, page links elsewhere)
 │   ├── social.html          social icon links, driven by _config.yml
+│   ├── footer.html          "Last updated" line, shown on every page
 │   ├── news.html            renders a list from _data/news.yml
 │   └── publication.html     renders one row from _data/publications.yml
 │

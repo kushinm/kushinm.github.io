@@ -230,3 +230,16 @@ table {
     border: none;
   }
 }
+
+/*******************************************************************************
+ * Footer — just enough to give every page some breathing room at the
+ * bottom of the scroll, plus a small "last updated" line.
+ ******************************************************************************/
+footer {
+  margin-top: 4rem;
+  padding: 1.5rem 0 3rem;
+  text-align: center;
+  font-size: 0.8rem;
+  font-style: italic;
+  color: var(--global-text-color-light);
+}
