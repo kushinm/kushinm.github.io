@@ -3,7 +3,7 @@ layout: default
 title: home
 permalink: /
 ---
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Roboto+Mono:wght@400;500&display=swap">
 
 <div class="post">
   <header class="post-header" style="font-family:'Raleway', sans-serif;">
@@ -14,6 +14,12 @@ permalink: /
   <article>
     <div class="profile float-right">
       <img class="img-fluid z-depth-1 rounded-rect" src="{{ '/assets/img/prof_pic.jpeg' | relative_url }}" alt="prof_pic.jpeg" width="auto" height="auto">
+      <div class="address">
+        Building 420<br>
+        Department of Psychology<br>
+        450, Jane Stanford Way<br>
+        Stanford, CA 94305
+      </div>
     </div>
 
     <div class="clearfix">
