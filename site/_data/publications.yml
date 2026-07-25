@@ -1,0 +1,330 @@
+# Publications, newest-first (this order is what renders — grouping by year
+# on the page is derived from `year` below, not from a hand-maintained list).
+# To add a paper: insert an entry near the top with the fields below.
+#   title     required
+#   authors   required — list of {first, last}; use "Kushin"/"Mukherjee" for
+#             yourself, it renders bold
+#   journal   optional — venue name
+#   year      required — a number, or the string "pre-pub" to suppress the
+#             year in the citation line
+#   badge     optional — bold-italic award line under the title
+#   progress  optional — italic status next to the title, e.g. "(in press)"
+#   note      optional — second citation line, e.g. "Also appeared in..."
+#   preview   optional — filename in assets/img/publication_preview/
+#   pdf       optional — filename in assets/pdf/
+
+- title: "auto-psych: Automating the science of mind using agent-driven theory discovery and experimentation"
+  authors:
+    - {first: Ben, last: Prystawski}
+    - {first: Kushin, last: Mukherjee}
+    - {first: Daniel, last: Wurgaft}
+    - {first: Linas, last: Nasvytis}
+    - {first: Michael Y, last: Li}
+    - {first: Noah D, last: Goodman}
+    - {first: Michael C, last: Frank}
+  year: pre-pub
+  progress: (under review)
+  preview: prystawski_2026_auto.png
+
+- title: AI-guided stimuli discovery and generation to optimize facial emotion perception studies in autism
+  authors:
+    - {first: Kushin, last: Mukherjee}
+    - {first: Na Yeon, last: Kim}
+    - {first: Maren, last: Wehrheim}
+    - {first: Ralph, last: Adolphs}
+    - {first: Kohitij, last: Kar}
+  year: pre-pub
+  progress: (under review)
+  preview: mukherjee_2026_asd.png
+
+- title: "Predicting affective connotation of visualizations from their constituent colors. IEEE Transactions on Visualization and Computer Graphics."
+  authors:
+    - {first: Halle, last: Braun}
+    - {first: Kushin, last: Mukherjee}
+    - {first: "A.", last: Chinni}
+    - {first: Seth R, last: Gorelik}
+    - {first: Karen B, last: Schloss}
+  year: pre-pub
+  progress: (in press)
+  preview: braun_2026_predicting.png
+
+- title: "CHART-6: Human-Centered Evaluation of Data Visualization Understanding in Vision-Language Models"
+  authors:
+    - {first: Arnav, last: Verma}
+    - {first: Kushin, last: Mukherjee}
+    - {first: Christopher, last: Potts}
+    - {first: Elisa, last: Kreiss}
+    - {first: Judith E, last: Fan}
+  year: pre-pub
+  progress: (under review)
+  preview: verma_arxiv_2025.png
+  pdf: verma_arxiv_2025.pdf
+
+- title: Evaluating steering techniques using human similarity judgments
+  authors:
+    - {first: Z, last: Studdiford}
+    - {first: Timothy T, last: Rogers}
+    - {first: Siddharth, last: Suresh}
+    - {first: Kushin, last: Mukherjee}
+  journal: Conference on Language Modeling (COLM)
+  year: 2026
+  preview: studdiford_2026_steering.png
+
+- title: Uncovering the computational ingredients of human-like representations in large language models
+  authors:
+    - {first: Z, last: Studdiford}
+    - {first: Timothy T, last: Rogers}
+    - {first: Kushin, last: Mukherjee}
+    - {first: Siddharth, last: Suresh}
+  journal: Conference on Language Modeling (COLM)
+  year: 2026
+  preview: studdiford_2026_factors.png
+
+- title: Color-concept associations reveal a new conceptual space
+  authors:
+    - {first: Kushin, last: Mukherjee}
+    - {first: Timothy T, last: Rogers}
+    - {first: Laurent, last: Lessard}
+    - {first: Michael, last: Gleicher}
+    - {first: Karen B, last: Schloss}
+  journal: Proceedings of the Natural Academy of Sciences
+  year: 2026
+  progress: (in press)
+  preview: semantic_spaces.png
+
+- title: Large language models estimate fine-grained human color-concept associations
+  authors:
+    - {first: Kushin, last: Mukherjee}
+    - {first: Timothy T, last: Rogers}
+    - {first: Karen B, last: Schloss}
+  journal: Cognitive Science
+  year: 2026
+  preview: mukherjee_arxiv_2025.png
+
+- title: Presenting large language models as companions affects what mental capacities people attribute to them
+  authors:
+    - {first: Allison, last: Chen}
+    - {first: Sunnie Y, last: Kim}
+    - {first: Angel, last: Franyutti}
+    - {first: Amaya, last: Dharmasiri}
+    - {first: Kushin, last: Mukherjee}
+    - {first: Judith E, last: Fan}
+    - {first: Olga, last: Russakovsky}
+  journal: Proceedings of the CHI Conference on Human Factors in Computing Systems
+  year: 2026
+  preview: chen_2026_presenting.png
+
+- title: Affective color scales for visualizations of continuous data
+  authors:
+    - {first: Halle, last: Braun}
+    - {first: Kushin, last: Mukherjee}
+    - {first: Seth R, last: Gorelik}
+    - {first: Karen B, last: Schloss}
+  journal: IEEE Transactions on Visualization and Computer Graphics
+  year: 2025
+  badge: Best Paper Honorable Mention
+  preview: braun_vis_2025.png
+  pdf: braun_vis_2025.pdf
+
+- title: "Encqa: Benchmarking vision-language models on visual encodings for charts"
+  authors:
+    - {first: Kushin, last: Mukherjee}
+    - {first: Donghao, last: Ren}
+    - {first: Dominik, last: Moritz}
+    - {first: Yannick, last: Assogba}
+  journal: IEEE Transactions on Visualization and Computer Graphics
+  year: 2025
+  preview: mukherjee_vis_2025.png
+  pdf: mukherjee_vis_2025.pdf
+
+- title: AI-enhanced semantic feature norms for 786 concepts
+  authors:
+    - {first: Siddharth, last: Suresh}
+    - {first: Kushin, last: Mukherjee}
+    - {first: Tyler, last: Giallanza}
+    - {first: Xizheng, last: Yu}
+    - {first: Mia, last: Patil}
+    - {first: Jonathan D, last: Cohen}
+    - {first: Timothy T, last: Rogers}
+  journal: Proceedings of the 47th Annual Conference of the Cognitive Science Society
+  year: 2025
+  badge: "Computational Modeling Prize in Applied Cognition @ CogSci & Best Paper Award @ ICLR BiAlign Workshop"
+  note: Also appeared in the ICLR 2025 Workshop on Bidirectional Human-AI Alignment
+  preview: suresh_cogsci_2025.png
+  pdf: suresh_cogsci_2025.pdf
+
+- title: "Drawings of THINGS: A large-scale drawing dataset of 1,854 object concepts"
+  authors:
+    - {first: Kushin, last: Mukherjee}
+    - {first: Holly, last: Huey}
+    - {first: Laura M, last: Stoinski}
+    - {first: Martin M, last: Hebart}
+    - {first: Judith E, last: Fan}
+    - {first: Wilma A, last: Bainbridge}
+  journal: Behavior Research Methods
+  year: 2025
+  preview: mukherjee_brm_2025.png
+
+- title: Using drawings and deep neural networks to characterize the building blocks of human visual similarity
+  authors:
+    - {first: Kushin, last: Mukherjee}
+    - {first: Timothy T, last: Rogers}
+  journal: Memory and Cognition
+  year: 2025
+  preview: mukherjee2023using_preview.png
+  pdf: "mukherjee_M&C_2024.pdf"
+
+- title: Shaping vision through drawing
+  authors:
+    - {first: Kushin, last: Mukherjee}
+  journal: Nature Reviews Psychology (Journal Club)
+  year: 2024
+  preview: mukherjee_nrp_2024.png
+  pdf: mukherjee_nrp_2024.pdf
+
+- title: Evaluating human and machine understanding of data visualizations
+  authors:
+    - {first: Arnav, last: Verma}
+    - {first: Kushin, last: Mukherjee}
+    - {first: Christopher, last: Potts}
+    - {first: Elisa, last: Kreiss}
+    - {first: Judith E, last: Fan}
+  journal: Proceedings of the 46th Annual Conference of the Cognitive Science Society
+  year: 2024
+  preview: verma_cogsci_2024.png
+  pdf: verma_cogsci_2024.pdf
+
+- title: The role of shared labels and experiences in representational alignment
+  authors:
+    - {first: Kushin, last: Mukherjee}
+    - {first: Siddharth, last: Suresh}
+    - {first: Xizheng, last: Yu}
+    - {first: Gary, last: Lupyan}
+  journal: ICLR 2024 Workshop on Representational Alignment
+  year: 2024
+  note: Also appeared in the Proceedings of Evolang XV
+  preview: mukherjee_iclr_2024.png
+  pdf: mukherjee_iclr_2024.pdf
+
+- title: "Categories vs semantic features: What shape the similarities people discern in photographs of objects?"
+  authors:
+    - {first: Siddharth, last: Suresh}
+    - {first: Wei-Chun, last: Huang}
+    - {first: Kushin, last: Mukherjee}
+    - {first: Timothy T, last: Rogers}
+  journal: ICLR 2024 Workshop on Representational Alignment
+  year: 2024
+  preview: suresh_iclr_2024.png
+  pdf: suresh_iclr_2024.pdf
+
+- title: Color semantics for visual communication
+  authors:
+    - {first: Karen B, last: Schloss}
+    - {first: Melissa A, last: Schoenlein}
+    - {first: Kushin, last: Mukherjee}
+  journal: "In R. B. D. A. Szafir, M. Chen, D. J. Edward, B. Fisher, & L. M. Padilla (Ed.), Visualization Psychology. Springer"
+  year: 2023
+  preview: color_semantics.png
+
+- title: Conceptual structure coheres in human cognition but not in large language models
+  authors:
+    - {first: Siddharth, last: Suresh}
+    - {first: Kushin, last: Mukherjee}
+    - {first: Xizheng, last: Yu}
+    - {first: Wei-Chun, last: Huang}
+    - {first: Lisa, last: Padua}
+    - {first: Timothy T, last: Rogers}
+  journal: Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)
+  year: 2023
+  preview: suresh_arxiv_2023.png
+  pdf: suresh_emnlp_2023.pdf
+
+- title: "SEVA: Leveraging sketches to evaluate alignment between human and machine visual abstraction"
+  authors:
+    - {first: Kushin, last: Mukherjee}
+    - {first: Holly, last: Huey}
+    - {first: Xuanchen, last: Lu}
+    - {first: Yael, last: Vinker}
+    - {first: Ariel, last: Shamir}
+    - {first: Judith E, last: Fan}
+  journal: Advances in Neural Information Processing Systems (NeurIPS), Datasets and Benchmarks Track
+  year: 2023
+  preview: mukherjee_neurips_2023.png
+  pdf: mukherjee_neurips_2023.pdf
+
+- title: "Leveraging Artificial Neural Networks to Enhance Diagnostic Efficiency in Autism Spectrum Disorder: A Study on Facial Emotion Recognition"
+  authors:
+    - {first: Kushin, last: Mukherjee}
+    - {first: Na Yeon, last: Kim}
+    - {first: Shirin Taghian, last: Alamooti}
+    - {first: Ralph, last: Adolphs}
+    - {first: Kohitij, last: Kar}
+  journal: Conference on Cognitive Computational Neuroscience
+  year: 2023
+  preview: mukherjee_ccn_2023.png
+  pdf: mukherjee_ccn_2023.pdf
+
+- title: Human-machine cooperation for semantic feature listing
+  authors:
+    - {first: Kushin, last: Mukherjee}
+    - {first: Siddharth, last: Suresh}
+    - {first: Timothy T, last: Rogers}
+  journal: ICLR TinyPapers Track
+  year: 2023
+  preview: mukherjee_iclrtiny_2023.png
+  pdf: mukherjee_iclrtiny_2023.pdf
+
+- title: Semantic feature verification in FLAN-T5
+  authors:
+    - {first: Siddharth, last: Suresh}
+    - {first: Kushin, last: Mukherjee}
+    - {first: Timothy T, last: Rogers}
+  journal: ICLR TinyPapers Track
+  year: 2023
+  preview: suresh_iclrtiny_2023.png
+  pdf: suresh_iclrtiny_2023.pdf
+
+- title: Evaluating machine comprehension of sketch meaning at different levels of abstraction
+  authors:
+    - {first: Kushin, last: Mukherjee}
+    - {first: Xuanchen, last: Lu}
+    - {first: Holly, last: Huey}
+    - {first: Yael, last: Vinker}
+    - {first: Ariel, last: Shamir}
+    - {first: Judith E, last: Fan}
+  journal: Proceedings of the 45th Annual Conference of the Cognitive Science Society
+  year: 2023
+  preview: vab_cogsci.png
+  pdf: mukherjee_cogsci_2023.pdf
+
+- title: "Context matters: A theory of semantic discriminability for perceptual encoding systems"
+  authors:
+    - {first: Kushin, last: Mukherjee}
+    - {first: Brian, last: Yin}
+    - {first: Brianne E, last: Sherman}
+    - {first: Laurent, last: Lessard}
+    - {first: Karen B, last: Schloss}
+  journal: IEEE Transactions on Visualization and Computer Graphics
+  year: 2021
+  badge: Best Paper Honorable Mention
+  preview: sem_disc.png
+  pdf: mukherjee_vis_2021.pdf
+
+- title: How does task structure shape representations in deep neural networks?
+  authors:
+    - {first: Kushin, last: Mukherjee}
+    - {first: Timothy T, last: Rogers}
+  journal: NeurIPS Workshop on Shared Visual Representations in Humans and Machines
+  year: 2020
+  preview: taskstructure_sketch.png
+  pdf: mukherjee_srvhm_2020.pdf
+
+- title: Communicating semantic part information in drawings
+  authors:
+    - {first: Kushin, last: Mukherjee}
+    - {first: Robert D, last: Hawkins}
+    - {first: Judith E, last: Fan}
+  journal: Proceedings of the 41st Annual Conference of the Cognitive Science Society
+  year: 2019
+  preview: semantic_parts.png
+  pdf: mukherjee_cogsci_2019.pdf

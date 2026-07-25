@@ -1,0 +1,64 @@
+# -----------------------------------------------------------------------------
+# Lean kushinm.com — see /site/README.md (if present) or the repo's top-level
+# plan for why this exists alongside the full al-folio tree at the repo root.
+# -----------------------------------------------------------------------------
+
+title: Kushin Mukherjee
+first_name: Kushin
+last_name: Mukherjee
+email: kushinm@stanford.edu
+
+lang: en
+icon: icon.png
+
+url: https://kushinm.com
+baseurl:
+
+markdown: kramdown
+kramdown:
+  input: GFM
+highlighter: rouge
+
+max_width: 800px
+navbar_fixed: true
+news_limit: 5
+
+# -----------------------------------------------------------------------------
+# Social links (rendered by _includes/social.html)
+# -----------------------------------------------------------------------------
+github_username: kushinm
+twitter_username: kushin_m
+scholar_userid: MSVqlWEAAAAJ
+bsky: kushinm
+# mastodon_username intentionally omitted: the old config's value ("kushinm")
+# rendered a broken link (https://kushinm, missing the instance host). Add it
+# back here as "instance.tld/@kushinm" once you have the real handle.
+
+external_links:
+  enabled: true
+  rel: external nofollow noopener
+  target: _blank
+
+# Pinned CDN versions/SRI hashes (kept identical to the old site's) for the
+# two libraries the lean site still depends on: Bootstrap CSS for layout
+# (grid/navbar/buttons/table) and academicons for the Google Scholar glyph.
+bootstrap:
+  version: "4.6.1"
+  integrity:
+    css: "sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY="
+academicons:
+  version: "1.9.1"
+  integrity: "sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg="
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-link-attributes
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md
+
+keep_files: [CNAME]

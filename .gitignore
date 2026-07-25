@@ -7,5 +7,6 @@ _site
 .ruby-version
 .tweet-cache
 Gemfile.lock
+!site/Gemfile.lock
 vendor
 

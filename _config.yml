@@ -192,6 +192,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - site # the lean rebuild living alongside this tree; see plan/README in site/
 keep_files:
   - CNAME
   - .nojekyll

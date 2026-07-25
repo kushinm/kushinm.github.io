@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+<head>
+{% include head.html %}
+</head>
+<body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %}">
+
+{% include nav.html %}
+
+<div class="container mt-5">
+  {{ content }}
+</div>
+
+<script defer src="{{ '/assets/js/site.js' | relative_url }}"></script>
+</body>
+</html>
