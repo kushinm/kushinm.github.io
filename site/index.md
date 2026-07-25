@@ -6,7 +6,7 @@ permalink: /
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap">
 
 <div class="post">
-  <header class="post-header" style="font-family:'Rubik', sans-serif;">
+  <header class="post-header" style="font-family:'Raleway', sans-serif;">
     <h1 class="post-title">{{ site.title }}</h1>
     <p class="desc">kushinm at stanford dot edu</p>
   </header>
