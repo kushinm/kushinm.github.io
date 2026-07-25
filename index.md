@@ -13,7 +13,7 @@ permalink: /
 
   <article>
     <div class="profile float-right">
-      <img class="img-fluid z-depth-1 rounded-circle" src="{{ '/assets/img/prof_pic.jpeg' | relative_url }}" alt="prof_pic.jpeg" width="auto" height="auto">
+      <img class="img-fluid z-depth-1 rounded-rect" src="{{ '/assets/img/prof_pic.jpeg' | relative_url }}" alt="prof_pic.jpeg" width="auto" height="auto">
     </div>
 
     <div class="clearfix">
