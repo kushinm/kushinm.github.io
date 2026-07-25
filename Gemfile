@@ -1,4 +1,7 @@
 source 'https://rubygems.org'
+gem 'ostruct'
+gem 'base64'
+gem 'bigdecimal'
 group :jekyll_plugins do
     gem 'jekyll'
     gem 'jekyll-archives'
