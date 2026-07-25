@@ -25,8 +25,11 @@
           <li class="nav-item {% if page.url == '/publications/' %}active{% endif %}">
             <a class="nav-link" href="{{ '/publications/' | relative_url }}">publications{% if page.url == '/publications/' %}<span class="sr-only"> (current)</span>{% endif %}</a>
           </li>
-          <li class="nav-item {% if page.url == '/cv/' %}active{% endif %}">
-            <a class="nav-link" href="{{ '/cv/' | relative_url }}">cv{% if page.url == '/cv/' %}<span class="sr-only"> (current)</span>{% endif %}</a>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ '/assets/pdf/KM_CV_2026.pdf' | relative_url }}" target="_blank">cv</a>
+          </li>
+          <li class="nav-item {% if page.url == '/personal/' %}active{% endif %}">
+            <a class="nav-link" href="{{ '/personal/' | relative_url }}">personal{% if page.url == '/personal/' %}<span class="sr-only"> (current)</span>{% endif %}</a>
           </li>
         </ul>
       </div>

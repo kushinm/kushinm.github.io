@@ -3,9 +3,10 @@
 This is a lean, from-scratch Jekyll site that reproduces the visuals of the
 full [al-folio](https://github.com/alshedivat/al-folio) theme at the repo
 root, but keeps only what's actually used: the homepage, the publications
-list, and a CV page. It lives in this `site/` subdirectory on purpose, next
-to the original tree, so the two can be diffed and eventually merged — the
-root site is untouched and this one doesn't affect it.
+list, a direct link to a CV PDF, and a personal-links page. It lives in this
+`site/` subdirectory on purpose, next to the original tree, so the two can
+be diffed and eventually merged — the root site is untouched and this one
+doesn't affect it.
 
 If you just want to add a paper or a news item, skip to
 ["Adding a publication"](#adding-a-publication) or
@@ -30,7 +31,7 @@ site/
 │
 ├── index.md                 homepage (about text + profile photo + news)
 ├── publications.md          publications page
-├── cv.md                    CV page (links to the PDF + personal links)
+├── personal.md              personal links (Goodreads, HowLongToBeat, etc.)
 ├── news.md                  full news list (linked from the homepage)
 │
 ├── _data/
@@ -57,6 +58,9 @@ site/
 
 There is deliberately no `_posts`, `_projects`, `_plugins`, or extra
 `_layouts` — nothing here is unused.
+
+There's also no `cv.md`: the navbar's "cv" link (see `_includes/nav.html`)
+goes straight to `assets/pdf/KM_CV_2026.pdf`, not to an HTML page.
 
 ## Running it locally
 
@@ -121,14 +125,15 @@ Open `_data/news.yml` and add an entry at the top (list is newest-first):
 The homepage shows the newest 5 (`news_limit` in `_config.yml`); `/news/`
 shows the full list.
 
-## Editing the homepage bio or CV links
+## Editing the homepage bio, CV, or personal links
 
 - Homepage intro text is the markdown body of `index.md`, below the
   frontmatter.
-- CV page (`cv.md`) links to `assets/pdf/KM_CV_2026.pdf` and lists the
-  personal links (Goodreads, HowLongToBeat, etc.). To update the CV, replace
-  that PDF (keep the same filename, or update the link in `cv.md`) and add
-  new personal links as plain markdown list items.
+- The CV is a direct PDF link from the navbar, not a page — to update it,
+  replace `assets/pdf/KM_CV_2026.pdf` (keep the same filename), or give the
+  new file a different name and update the href in `_includes/nav.html`.
+- Personal links (Goodreads, HowLongToBeat, etc.) live on `personal.md` as
+  plain markdown list items — add new ones the same way.
 
 ## Styling
 
