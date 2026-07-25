@@ -20,7 +20,7 @@ permalink: /
     <div class="clearfix">
 <div style="width:470px">
 <p>
-I am a postdoctoral scholar in the <a href="https://cogtoolslab.github.io/" target="_blank">Cognitive Tools Lab</a> at <a href="https://www.stanford.edu/" target="_blank">Stanford University</a>.
+I,KM, am a postdoctoral scholar in the <a href="https://cogtoolslab.github.io/" target="_blank">Cognitive Tools Lab</a> at <a href="https://www.stanford.edu/" target="_blank">Stanford University</a>.
 I'm broadly interested in the human ability to use and understand <strong>visualizations</strong> (charts, graphs, drawings) in service of communication and discovery. My research focuses on developing computational cognitive models of visualization understanding to both (1) better characterize human cognition and (2) bridge the gap between modern AI systems and human-like understanding of visual concepts.
 </p>
 
