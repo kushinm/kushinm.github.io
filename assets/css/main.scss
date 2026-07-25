@@ -3,13 +3,243 @@
 ---
 @charset "utf-8";
 
-// Dimensions
 $max-content-width: {{ site.max_width }};
 
-@import
-  "variables",
-  "themes",
-  "layout",
-  "base",
-  "distill"
-;
+/*******************************************************************************
+ * Theme colors — light mode only (the old site had enable_darkmode: false,
+ * so the dark palette was dead code; not carried over).
+ ******************************************************************************/
+:root {
+  --global-bg-color: #fffef7;
+  --global-text-color: #000000;
+  --global-text-color-light: #828282;
+  --global-theme-color: #009db5;
+  --global-hover-color: #009db5;
+  --global-divider-color: #009db5;
+  --global-card-bg-color: #009db5;
+}
+
+/*******************************************************************************
+ * Base
+ ******************************************************************************/
+// Site-wide body font. The homepage title overrides this to Rubik inline
+// (see index.md); everywhere else — including bold/italic text from
+// <strong>/<b>/<em>/<i> — uses this Roboto stack. font-style/font-weight
+// aren't set here on purpose: the browser's default UA rules for those
+// tags already select the right variant, and the Google Fonts request in
+// head.html loads real (non-synthesized) 300/400/500/700 weights in both
+// upright and italic.
+$base-font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+
+body {
+  padding-top: 56px;
+  font-family: $base-font-family;
+  color: var(--global-text-color);
+  background-color: var(--global-bg-color);
+}
+
+.container {
+  max-width: $max-content-width;
+}
+
+p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
+  color: var(--global-text-color);
+}
+
+a, table.table a {
+  color: var(--global-theme-color);
+  &:hover {
+    color: var(--global-theme-color);
+    text-decoration: underline;
+  }
+}
+
+figure, img {
+  max-width: 90vw;
+}
+
+table {
+  td, th {
+    color: var(--global-text-color);
+  }
+  td {
+    font-size: 1rem;
+  }
+}
+
+// Bootstrap's z-depth equivalents (MDBootstrap shadow utility classes),
+// ported directly since MDB itself was dropped.
+.z-depth-0 {
+  box-shadow: none !important;
+}
+.z-depth-1 {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+}
+
+/*******************************************************************************
+ * Navbar
+ ******************************************************************************/
+.navbar {
+  box-shadow: none;
+  border-bottom: 1px solid var(--global-divider-color);
+  background-color: var(--global-bg-color);
+  opacity: 0.95;
+}
+.navbar.navbar-light {
+  .navbar-brand {
+    color: var(--global-text-color);
+  }
+  .nav-link {
+    color: var(--global-text-color);
+    &:hover, &:focus {
+      color: var(--global-hover-color);
+    }
+  }
+  .nav-item.active > .nav-link {
+    color: var(--global-theme-color);
+  }
+}
+.navbar-toggler {
+  border: none;
+  .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background-color: var(--global-text-color);
+    border-radius: 1px;
+    transition: all 0.2s;
+  }
+  .top-bar { margin-bottom: 5px; }
+  .middle-bar { opacity: 1; }
+  .bottom-bar { margin-top: 5px; }
+}
+.navbar-toggler.collapsed {
+  .top-bar { transform: rotate(0); }
+  .middle-bar { opacity: 1; }
+  .bottom-bar { transform: rotate(0); }
+}
+
+.social {
+  text-align: center;
+  .contact-icons {
+    font-size: 4rem;
+    a {
+      i::before {
+        color: var(--global-text-color);
+        transition-property: all 0.2s ease-in-out;
+      }
+      &:hover i::before {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+}
+.navbar-brand.social {
+  font-size: 1.5rem;
+  a {
+    color: var(--global-text-color);
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
+}
+
+/*******************************************************************************
+ * Profile (homepage)
+ ******************************************************************************/
+.profile {
+  width: 100%;
+  img {
+    width: 100%;
+  }
+}
+.profile.float-right {
+  margin-left: 1rem;
+}
+@media (min-width: 576px) {
+  .profile {
+    width: 30%;
+  }
+}
+
+.post-description {
+  margin-bottom: 2rem;
+  font-size: 0.875rem;
+}
+
+/*******************************************************************************
+ * Publications
+ ******************************************************************************/
+.publications {
+  margin-top: 2rem;
+
+  h2.year {
+    color: var(--global-divider-color);
+    border-top: 1px solid var(--global-divider-color);
+    padding-top: 1rem;
+    margin-top: 2rem;
+    margin-bottom: -2rem;
+    text-align: right;
+  }
+
+  .row {
+    margin-bottom: 1rem;
+
+    .preview img {
+      width: 120%;
+      min-width: 120px;
+      max-width: 400px;
+    }
+
+    .title {
+      font-weight: bolder;
+    }
+
+    .author a {
+      border-bottom: 1px dashed var(--global-theme-color);
+      &:hover {
+        border-bottom-style: solid;
+        text-decoration: none;
+      }
+    }
+    .author em {
+      border-bottom: 1px solid;
+      font-style: normal;
+    }
+
+    .links a.btn {
+      color: var(--global-text-color);
+      border: 1px solid var(--global-text-color);
+      padding-left: 1rem;
+      padding-right: 1rem;
+      padding-top: 0.25rem;
+      padding-bottom: 0.25rem;
+      &:hover {
+        color: var(--global-theme-color);
+        border-color: var(--global-theme-color);
+      }
+    }
+  }
+}
+
+/*******************************************************************************
+ * News
+ ******************************************************************************/
+.news {
+  table td, table th {
+    border: none;
+  }
+}
+
+/*******************************************************************************
+ * Footer — just enough to give every page some breathing room at the
+ * bottom of the scroll, plus a small "last updated" line.
+ ******************************************************************************/
+footer {
+  margin-top: 4rem;
+  padding: 1.5rem 0 3rem;
+  text-align: center;
+  font-size: 0.8rem;
+  font-style: italic;
+  color: var(--global-text-color-light);
+}

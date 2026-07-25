@@ -1,79 +1,79 @@
-"Adolphs":
-  - firstname: ["Ralph"]
+Adolphs:
+  - firstname: Ralph
     url: https://emotion.caltech.edu/
 
-"Cohen":
-  - firstname: ["Jonathan D"]
+Cohen:
+  - firstname: Jonathan D
     url: https://pni.princeton.edu/people/jonathan-cohen
 
-"Fan":
-  - firstname: ["Judith E"]
+Fan:
+  - firstname: Judith E
     url: https://cogtoolslab.github.io/about.html
 
-"Giallanza":
-  - firstname: ["Tyler"]
+Giallanza:
+  - firstname: Tyler
     url: https://tylergiallanza.github.io/
-    
-"Gleicher":
-  - firstname: ["Michael"]
+
+Gleicher:
+  - firstname: Michael
     url: https://gleicher.sites.cs.wisc.edu/
 
-"Hawkins":
-  - firstname: ["Robert D"]
-    url: https://rxdhawkins.com/ 
+Hawkins:
+  - firstname: Robert D
+    url: https://rxdhawkins.com/
 
-"Huey":
-  - firstname: ["Holly"]
+Huey:
+  - firstname: Holly
     url: https://hollyhuey.github.io/
 
-"Kar":
-  - firstname: ["Kohitij"]
-    url: https://vital-kolab.org/personnel/ 
+Kar:
+  - firstname: Kohitij
+    url: https://vital-kolab.org/personnel/
 
-"Kim":
-  - firstname: ["Na Yeon"]
-    url: https://nayeonckim.github.io/ 
-  
-"Lessard":
-  - firstname: ["Laurent"]
+Kim:
+  - firstname: Na Yeon
+    url: https://nayeonckim.github.io/
+
+Lessard:
+  - firstname: Laurent
     url: https://laurentlessard.com/
 
-"Lu":
-  - firstname: ["Xuanchen"]
-    url: https://xuanchenlu.com/ 
+Lu:
+  - firstname: Xuanchen
+    url: https://xuanchenlu.com/
 
-"Lupyan":
-  - firstname: ["Gary"]
+Lupyan:
+  - firstname: Gary
     url: http://sapir.psych.wisc.edu/
 
-"Rogers":
-  - firstname: ["Timothy T"]
+Rogers:
+  - firstname: Timothy T
     url: https://psych.wisc.edu/staff/rogers-timothy-t/
 
-"Schloss":
-  - firstname: ["Karen B"]
+Schloss:
+  - firstname: Karen B
     url: https://schlosslab.discovery.wisc.edu/
 
-"Schoenlein":
-  - firstname: ["Melissa A"]
+Schoenlein:
+  - firstname: Melissa A
     url: https://wid.wisc.edu/people/melissa-schoenlein/
 
-"Suresh":
-  - firstname: ["Siddharth"]
+Suresh:
+  - firstname: Siddharth
     url: https://www.sidsuresh.com/
 
-"Shamir":
-  - firstname: ["Ariel"]
+Shamir:
+  - firstname: Ariel
     url: https://faculty.runi.ac.il/arik/site/index.asp
 
-"Vinker":
-  - firstname: ["Yael"]
+Vinker:
+  - firstname: Yael
     url: https://yael-vinker.github.io/website/
 
-"Yin":
-  - firstname: ["Brian"]
+Yin:
+  - firstname: Brian
     url: http://brianyin.me/
 
-"Assogba":
-  - firstname: ["Yannick"]
+Assogba:
+  - firstname: Yannick
     url: https://www.linkedin.com/in/yannick-assogba-84bb8910/
