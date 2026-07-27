@@ -10,3 +10,18 @@ document.addEventListener('DOMContentLoaded', function () {
     toggler.classList.toggle('collapsed');
   });
 });
+
+// Thin bar under the navbar that fills left-to-right as the page is scrolled.
+document.addEventListener('DOMContentLoaded', function () {
+  var progressBar = document.getElementById('scroll-progress-bar');
+  if (!progressBar) return;
+  var updateProgress = function () {
+    var scrollTop = window.scrollY || document.documentElement.scrollTop;
+    var docHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    var progress = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+    progressBar.style.width = progress + '%';
+  };
+  window.addEventListener('scroll', updateProgress, { passive: true });
+  window.addEventListener('resize', updateProgress);
+  updateProgress();
+});

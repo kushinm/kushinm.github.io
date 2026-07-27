@@ -99,6 +99,21 @@ table {
     color: var(--global-theme-color);
   }
 }
+.scroll-progress-container {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: transparent;
+}
+.scroll-progress-bar {
+  height: 2px;
+  width: 0%;
+  background: var(--global-theme-color);
+  transition: none;
+}
+
 .navbar-toggler {
   border: none;
   .icon-bar {
@@ -204,7 +219,7 @@ table {
     }
 
     .title {
-      font-weight: bolder;
+      font-weight: bold;
     }
 
     .author a {
@@ -240,6 +255,10 @@ table {
 .news {
   table td, table th {
     border: none;
+  }
+  table th {
+    white-space: nowrap;
+    padding-right: 1.5rem;
   }
 }
 
