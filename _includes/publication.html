@@ -12,9 +12,9 @@
 
   <div class="col-sm-8">
     <div class="title">
-      {{ entry.title }}
-      {%- if entry.badge %}<br><b><i>{{ entry.badge }}</i></b>{% endif -%}
-      {%- if entry.progress %}<i>{{ entry.progress }}</i>{% endif -%}
+      {{ entry.title }}<em></em>
+      {% if entry.badge %}<br><b><i>{{ entry.badge }}</i></b>{% endif %}
+      {% if entry.progress %}<i>{{ entry.progress }}</i>{% endif %}
     </div>
 
     <div class="author">
