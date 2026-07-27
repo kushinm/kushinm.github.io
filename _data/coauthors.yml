@@ -82,7 +82,7 @@ Pystrawski:
   - firstname: Ben
     url: https://benprystawski.com/publications/
 
-Wugraft:
+Wurgaft:
   - firstname: Daniel
     url: https://scholar.google.com/citations?user=-x5aBUYAAAAJ&hl=en
 
@@ -94,3 +94,14 @@ Frank:
   - firstname: Michael C
     url: https://langcog.stanford.edu/
 
+Nasvytis:
+  - firstname: Linas
+    url: https://linasnasvytis.com/
+
+Chinni: 
+ - firstname: Anna L
+   url: https://vision.wisc.edu/staff/chinni-anna/
+
+Li:
+  - firstname: Michael Y
+    url: https://michaelyli.github.io/
