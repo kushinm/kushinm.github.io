@@ -29,7 +29,7 @@ $max-content-width: {{ site.max_width }};
 // tags already select the right variant, and the Google Fonts request in
 // head.html loads real (non-synthesized) 300/400/500/700 weights in both
 // upright and italic.
-$base-font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+$base-font-family: "Roboto";
 
 body {
   padding-top: 56px;
@@ -219,7 +219,7 @@ table {
     }
 
     .title {
-      font-weight: bold;
+      // font-weight: bold;
     }
 
     .author a {
