@@ -78,7 +78,7 @@ Assogba:
   - firstname: Yannick
     url: https://www.linkedin.com/in/yannick-assogba-84bb8910/
 
-Pystrawski:
+Prystawski:
   - firstname: Ben
     url: https://benprystawski.com/publications/
 
@@ -105,3 +105,32 @@ Chinni:
 Li:
   - firstname: Michael Y
     url: https://michaelyli.github.io/
+
+Potts: 
+ - firstname: Christopher
+   url: https://web.stanford.edu/~cgpotts/
+
+Verma:
+  - firstname: Arnav
+    url: https://www.arnavverma.com/
+
+Kreiss:
+  - firstname: Elisa
+    url: https://coalas-lab.com/
+
+Studdiford:
+  - firstname: Zach
+    url: https://zachstuddiford.com/
+
+Chen:
+  - firstname: Allison
+    url: https://allisonchen.us/
+
+Kim: 
+  - firstname: Sunnie S Yael
+    url: https://sunniesuhyoung.github.io/
+
+Russakovsky:
+  - firstname: Olga
+    url: https://visualai.princeton.edu/
+  

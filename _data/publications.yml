@@ -78,7 +78,7 @@
 - key: studdiford_colm_2026_steering
   title: Evaluating steering techniques using human similarity judgments
   authors:
-    - {first: Z, last: Studdiford}
+    - {first: Zach, last: Studdiford}
     - {first: Timothy T, last: Rogers}
     - {first: Siddharth, last: Suresh}
     - {first: Kushin, last: Mukherjee}
@@ -88,7 +88,7 @@
 - key: studdiford_colm_2026_factors
   title: Uncovering the computational ingredients of human-like representations in large language models
   authors:
-    - {first: Z, last: Studdiford}
+    - {first: Zach, last: Studdiford}
     - {first: Timothy T, last: Rogers}
     - {first: Kushin, last: Mukherjee}
     - {first: Siddharth, last: Suresh}
