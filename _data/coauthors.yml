@@ -77,3 +77,20 @@ Yin:
 Assogba:
   - firstname: Yannick
     url: https://www.linkedin.com/in/yannick-assogba-84bb8910/
+
+Pystrawski:
+  - firstname: Ben
+    url: https://benprystawski.com/publications/
+
+Wugraft:
+  - firstname: Daniel
+    url: https://scholar.google.com/citations?user=-x5aBUYAAAAJ&hl=en
+
+Goodman:
+  - firstname: Noah D
+    url: https://cocolab.stanford.edu/
+
+Frank:
+  - firstname: Michael C
+    url: https://langcog.stanford.edu/
+
