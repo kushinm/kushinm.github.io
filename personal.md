@@ -8,7 +8,7 @@ permalink: /personal/
     <h1 class="post-title">personal</h1>
   </header>
   <article>
-    <h2>Websites where I keep track of things</h2>
+    <h3>Websites where I keep track of things</h3>
     <p>
       <a href="https://www.goodreads.com/user/show/9244363-kushin" target="_blank">Goodreads</a><br>
       <a href="https://howlongtobeat.com/user/kushinm" target="_blank">HowLongToBeat</a>
