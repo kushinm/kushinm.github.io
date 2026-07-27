@@ -1,5 +1,24 @@
 # Newest first. Full list rendered at /news/; homepage shows the top N
 # (see `news_limit` usage in index.md).
+
+- date: 2026-07-27
+  text: >-
+      Lots of fun news I've neglected to update here! Our paper on estimating color-concept associations 
+      from language models is out in [Cognitive Science](https://onlinelibrary.wiley.com/doi/10.1111/cogs.70219). 
+      Meanwhile, we have [two papers](/publications/) on semantic representations in LLMs accepted at COLM (main track) and a [workshop paper](https://arxiv.org/abs/2606.26460v1) on automated scientific discovery in cognitive science using LLM agents; see you all in SF in October!
+
+
+- date: 2026-05-25
+  text: >-
+      Was great being back at VSS this year! We presented work on [data visualization understanding](https://www.visionsciences.org/presentation/?id=3376) and [vision-model analyses of paleolithic cave art](https://www.visionsciences.org/presentation/?id=3356)! I also gave a talk at the Vis X Vision satellite event.
+
+
+- date: 2025-11-15
+  text: >-
+    I had a great time in Vienna presenting my Apple internship project, [EncQA](https://arxiv.org/abs/2508.04650), at IEEE VIS. 
+    I also pitched in for an undergrad-led project on predicting [affective connotation for colorscales](https://arxiv.org/abs/2511.14009), which won an honorable mention award at the conference 🏆!
+
+
 - date: 2025-06-05
   text: >-
     Our paper **AI-enhanced semantic feature norms for 786 concepts** was accepted to both the
