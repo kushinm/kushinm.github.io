@@ -29,7 +29,7 @@
 #   progress  optional — italic status next to the title, e.g. "(in press)"
 #   note      optional — second citation line, e.g. "Also appeared in..."
 
-- key: prystawski_auto_prepub
+- key: prystawski_lm4sci_2026
   title: "auto-psych: Automating the science of mind using agent-driven theory discovery and experimentation"
   authors:
     - {first: Ben, last: Prystawski}
@@ -39,8 +39,8 @@
     - {first: Michael Y, last: Li}
     - {first: Noah D, last: Goodman}
     - {first: Michael C, last: Frank}
-  year: pre-pub
-  progress: (under review)
+  journal: Language Models for Scientific Discovery (LM4Sci) Workshop at COLM 2026
+  year: 2026
 
 - key: mukherjee_asd_prepub
   title: AI-guided stimuli discovery and generation to optimize facial emotion perception studies in autism
@@ -53,16 +53,16 @@
   year: pre-pub
   progress: (under review)
 
-- key: braun_predicting_prepub
-  title: "Predicting affective connotation of visualizations from their constituent colors. IEEE Transactions on Visualization and Computer Graphics."
+- key: braun_vis_2026
+  title: Predicting affective connotation of visualizations from their constituent colors
   authors:
     - {first: Halle, last: Braun}
     - {first: Kushin, last: Mukherjee}
     - {first: Anna L, last: Chinni}
     - {first: Seth R, last: Gorelik}
     - {first: Karen B, last: Schloss}
-  year: pre-pub
-  progress: (in press)
+  journal: IEEE Transactions on Visualization and Computer Graphics
+  year: 2026
 
 - key: verma_chart6_prepub
   title: "CHART-6: Human-Centered Evaluation of Data Visualization Understanding in Vision-Language Models"
@@ -85,7 +85,7 @@
   journal: Conference on Language Modeling (COLM)
   year: 2026
 
-- key: studdiford_colm_2026_factors
+- key: studdiford_colm_2026_ingredients
   title: Uncovering the computational ingredients of human-like representations in large language models
   authors:
     - {first: Zach, last: Studdiford}
@@ -103,11 +103,10 @@
     - {first: Laurent, last: Lessard}
     - {first: Michael, last: Gleicher}
     - {first: Karen B, last: Schloss}
-  journal: Proceedings of the Natural Academy of Sciences
+  journal: Proceedings of the National Academy of Sciences
   year: 2026
-  progress: (in press)
 
-- key: mukherjee_cogscij_2026
+- key: mukherjee_cs_2026
   title: Large language models estimate fine-grained human color-concept associations
   authors:
     - {first: Kushin, last: Mukherjee}
