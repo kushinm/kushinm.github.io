@@ -1,5 +1,6 @@
-# Publications, newest-first (this order is what renders — grouping by year
-# on the page is derived from `year` below, not from a hand-maintained list).
+# Publications. Order in this file does NOT matter: publications.md sorts
+# entries for rendering — pre-pub first, then by `year` descending (newest
+# first) — and inserts the year headers automatically.
 #
 # Each entry has a `key` that names its files: assets/pdf/{key}.pdf and
 # assets/img/publication_preview/{key}.png. Both are optional — if a file at
