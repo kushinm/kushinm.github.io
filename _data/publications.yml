@@ -179,7 +179,7 @@
   badge: "Computational Modeling Prize in Applied Cognition @ CogSci & Best Paper Award @ ICLR BiAlign Workshop"
   note: Also appeared in the ICLR 2025 Workshop on Bidirectional Human-AI Alignment
 
-- key: mukherjee_brm_2025
+- key: mukherjee_brm_2026
   title: "Drawings of THINGS: A large-scale drawing dataset of 1,854 object concepts"
   authors:
     - {first: Kushin, last: Mukherjee}
