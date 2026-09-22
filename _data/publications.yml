@@ -29,6 +29,21 @@
 #   progress  optional — italic status next to the title, e.g. "(in press)"
 #   note      optional — second citation line, e.g. "Also appeared in..."
 
+- key: chinni_beliv_2026
+  title: "Guidelines are not rules: Characterizing terminologies around visualization design guidelines"
+  authors:
+    - {first: Anna L, last: Chinni}
+    - {first: Md Dilshadur, last: Rahman}
+    - {first: Bon Adriel, last: Aseniero}
+    - {first: Petra, last: Isenberg}
+    - {first: Kushin, last: Mukherjee}
+    - {first: Ghulam J, last: Quadri}
+    - {first: Paul, last: Rosen}
+    - {first: Karen B, last: Schloss}
+    - {first: Daniel, last: Weiskopf}
+  journal: IEEE VIS 2026 BELIV Workshop
+  year: 2026
+
 - key: prystawski_lm4sci_2026
   title: "auto-psych: Automating the science of mind using agent-driven theory discovery and experimentation"
   authors:
@@ -39,7 +54,7 @@
     - {first: Michael Y, last: Li}
     - {first: Noah D, last: Goodman}
     - {first: Michael C, last: Frank}
-  journal: Language Models for Scientific Discovery (LM4Sci) Workshop at COLM 2026
+  journal: COLM 2026 Language Models for Scientific Discovery (LM4Sci) Workshop 
   year: 2026
 
 - key: mukherjee_asd_prepub
@@ -174,7 +189,7 @@
     - {first: Judith E, last: Fan}
     - {first: Wilma A, last: Bainbridge}
   journal: Behavior Research Methods
-  year: 2025
+  year: 2026
 
 - key: mukherjee_mc_2025
   title: Using drawings and deep neural networks to characterize the building blocks of human visual similarity
