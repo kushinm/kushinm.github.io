@@ -11,20 +11,25 @@ permalink: /publications/
   <article>
     <div class="publications">
       {%- comment -%}
-        Order is derived here, not from the order entries appear in
-        _data/publications.yml: pre-pub entries first, then published
-        entries by year descending (newest first).
+        Year groups are ordered here (pre-pub first, then years descending),
+        but within a year entries keep the order they appear in
+        _data/publications.yml.
       {%- endcomment -%}
-      {%- assign prepub = site.data.publications | where_exp: "e", "e.year == 'pre-pub'" -%}
-      {%- assign published = site.data.publications | where_exp: "e", "e.year != 'pre-pub'" | sort: "year" | reverse -%}
-      {%- assign ordered = prepub | concat: published -%}
-      {%- assign prev_year = nil -%}
-      {%- for entry in ordered -%}
-        {%- if entry.year != prev_year -%}
-      <h2 class="year">{{ entry.year }}</h2>
-          {%- assign prev_year = entry.year -%}
-        {%- endif -%}
+      {%- assign pubs = site.data.publications -%}
+      {%- assign years = pubs | where_exp: "e", "e.year != 'pre-pub'" | map: "year" | uniq | sort | reverse -%}
+      {%- assign prepub = pubs | where_exp: "e", "e.year == 'pre-pub'" -%}
+      {%- if prepub.size > 0 -%}
+      <h2 class="year">pre-pub</h2>
+        {%- for entry in prepub -%}
       {% include publication.html entry=entry %}
+        {%- endfor -%}
+      {%- endif -%}
+      {%- for y in years -%}
+      <h2 class="year">{{ y }}</h2>
+        {%- assign group = pubs | where: "year", y -%}
+        {%- for entry in group -%}
+      {% include publication.html entry=entry %}
+        {%- endfor -%}
       {%- endfor -%}
     </div>
   </article>

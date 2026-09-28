@@ -1,6 +1,6 @@
-# Publications. Order in this file does NOT matter: publications.md sorts
-# entries for rendering — pre-pub first, then by `year` descending (newest
-# first) — and inserts the year headers automatically.
+# Publications. publications.md groups entries by year — pre-pub first, then
+# `year` descending (newest first) — and inserts the year headers
+# automatically. Within a year, entries render in the order they appear here.
 #
 # Each entry has a `key` that names its files: assets/pdf/{key}.pdf and
 # assets/img/publication_preview/{key}.png. Both are optional — if a file at
@@ -30,19 +30,41 @@
 #   progress  optional — italic status next to the title, e.g. "(in press)"
 #   note      optional — second citation line, e.g. "Also appeared in..."
 
-- key: chinni_beliv_2026
-  title: "Guidelines are not rules: Characterizing terminologies around visualization design guidelines"
+
+- key: mukherjee_asd_prepub
+  title: AI-guided stimuli discovery and generation to optimize facial emotion perception studies in autism
   authors:
-    - {first: Anna L, last: Chinni}
-    - {first: Md Dilshadur, last: Rahman}
-    - {first: Bon Adriel, last: Aseniero}
-    - {first: Petra, last: Isenberg}
     - {first: Kushin, last: Mukherjee}
-    - {first: Ghulam J, last: Quadri}
-    - {first: Paul, last: Rosen}
+    - {first: Na Yeon, last: Kim}
+    - {first: Maren H, last: Wehrheim}
+    - {first: Ralph, last: Adolphs}
+    - {first: Kohitij, last: Kar}
+  year: pre-pub
+  progress: (under review)
+
+
+- key: verma_chart6_prepub
+  title: "CHART-6: Human-Centered Evaluation of Data Visualization Understanding in Vision-Language Models"
+  authors:
+    - {first: Arnav, last: Verma}
+    - {first: Kushin, last: Mukherjee}
+    - {first: Christopher, last: Potts}
+    - {first: Elisa, last: Kreiss}
+    - {first: Judith E, last: Fan}
+  year: pre-pub
+  progress: (in press)
+
+
+
+- key: mukherjee_pnas_2026
+  title: Color-concept associations reveal a new conceptual space
+  authors:
+    - {first: Kushin, last: Mukherjee}
+    - {first: Timothy T, last: Rogers}
+    - {first: Laurent, last: Lessard}
+    - {first: Michael, last: Gleicher}
     - {first: Karen B, last: Schloss}
-    - {first: Daniel, last: Weiskopf}
-  journal: IEEE VIS 2026 BELIV Workshop
+  journal: Proceedings of the National Academy of Sciences
   year: 2026
 
 - key: prystawski_lm4sci_2026
@@ -58,16 +80,36 @@
   journal: COLM 2026 Language Models for Scientific Discovery (LM4Sci) Workshop 
   year: 2026
 
-- key: mukherjee_asd_prepub
-  title: AI-guided stimuli discovery and generation to optimize facial emotion perception studies in autism
+- key: studdiford_colm_2026_ingredients
+  title: Uncovering the computational ingredients of human-like representations in large language models
+  authors:
+    - {first: Zach, last: Studdiford}
+    - {first: Timothy T, last: Rogers}
+    - {first: Kushin, last: Mukherjee}
+    - {first: Siddharth, last: Suresh}
+  journal: Conference on Language Modeling (COLM)
+  year: 2026
+
+
+- key: studdiford_colm_2026_steering
+  title: Evaluating steering techniques using human similarity judgments
+  authors:
+    - {first: Zach, last: Studdiford}
+    - {first: Timothy T, last: Rogers}
+    - {first: Siddharth, last: Suresh}
+    - {first: Kushin, last: Mukherjee}
+  journal: Conference on Language Modeling (COLM)
+  year: 2026
+
+- key: mukherjee_cs_2026
+  title: Large language models estimate fine-grained human color-concept associations
   authors:
     - {first: Kushin, last: Mukherjee}
-    - {first: Na Yeon, last: Kim}
-    - {first: Maren H, last: Wehrheim}
-    - {first: Ralph, last: Adolphs}
-    - {first: Kohitij, last: Kar}
-  year: pre-pub
-  progress: (under review)
+    - {first: Timothy T, last: Rogers}
+    - {first: Karen B, last: Schloss}
+  journal: Cognitive Science
+  year: 2026
+
 
 - key: braun_vis_2026
   title: Predicting affective connotation of visualizations from their constituent colors
@@ -80,55 +122,32 @@
   journal: IEEE Transactions on Visualization and Computer Graphics
   year: 2026
 
-- key: verma_chart6_prepub
-  title: "CHART-6: Human-Centered Evaluation of Data Visualization Understanding in Vision-Language Models"
+
+- key: chinni_beliv_2026
+  title: "Guidelines are not rules: Characterizing terminologies around visualization design guidelines"
   authors:
-    - {first: Arnav, last: Verma}
+    - {first: Anna L, last: Chinni}
+    - {first: Md Dilshadur, last: Rahman}
+    - {first: Bon Adriel, last: Aseniero}
+    - {first: Petra, last: Isenberg}
     - {first: Kushin, last: Mukherjee}
-    - {first: Christopher, last: Potts}
-    - {first: Elisa, last: Kreiss}
+    - {first: Ghulam J, last: Quadri}
+    - {first: Paul, last: Rosen}
+    - {first: Karen B, last: Schloss}
+    - {first: Daniel, last: Weiskopf}
+  journal: IEEE VIS 2026 BELIV Workshop
+  year: 2026
+
+- key: mukherjee_brm_2026
+  title: "Drawings of THINGS: A large-scale drawing dataset of 1,854 object concepts"
+  authors:
+    - {first: Kushin, last: Mukherjee}
+    - {first: Holly, last: Huey}
+    - {first: Laura M, last: Stoinski}
+    - {first: Martin N, last: Hebart}
     - {first: Judith E, last: Fan}
-  year: pre-pub
-  progress: (under review)
-
-- key: studdiford_colm_2026_steering
-  title: Evaluating steering techniques using human similarity judgments
-  authors:
-    - {first: Zach, last: Studdiford}
-    - {first: Timothy T, last: Rogers}
-    - {first: Siddharth, last: Suresh}
-    - {first: Kushin, last: Mukherjee}
-  journal: Conference on Language Modeling (COLM)
-  year: 2026
-
-- key: studdiford_colm_2026_ingredients
-  title: Uncovering the computational ingredients of human-like representations in large language models
-  authors:
-    - {first: Zach, last: Studdiford}
-    - {first: Timothy T, last: Rogers}
-    - {first: Kushin, last: Mukherjee}
-    - {first: Siddharth, last: Suresh}
-  journal: Conference on Language Modeling (COLM)
-  year: 2026
-
-- key: mukherjee_pnas_2026
-  title: Color-concept associations reveal a new conceptual space
-  authors:
-    - {first: Kushin, last: Mukherjee}
-    - {first: Timothy T, last: Rogers}
-    - {first: Laurent, last: Lessard}
-    - {first: Michael, last: Gleicher}
-    - {first: Karen B, last: Schloss}
-  journal: Proceedings of the National Academy of Sciences
-  year: 2026
-
-- key: mukherjee_cs_2026
-  title: Large language models estimate fine-grained human color-concept associations
-  authors:
-    - {first: Kushin, last: Mukherjee}
-    - {first: Timothy T, last: Rogers}
-    - {first: Karen B, last: Schloss}
-  journal: Cognitive Science
+    - {first: Wilma A, last: Bainbridge}
+  journal: Behavior Research Methods
   year: 2026
 
 - key: chen_chi_2026
@@ -180,17 +199,7 @@
   badge: "Computational Modeling Prize in Applied Cognition @ CogSci & Best Paper Award @ ICLR BiAlign Workshop"
   note: Also appeared in the ICLR 2025 Workshop on Bidirectional Human-AI Alignment
 
-- key: mukherjee_brm_2026
-  title: "Drawings of THINGS: A large-scale drawing dataset of 1,854 object concepts"
-  authors:
-    - {first: Kushin, last: Mukherjee}
-    - {first: Holly, last: Huey}
-    - {first: Laura M, last: Stoinski}
-    - {first: Martin N, last: Hebart}
-    - {first: Judith E, last: Fan}
-    - {first: Wilma A, last: Bainbridge}
-  journal: Behavior Research Methods
-  year: 2026
+
 
 - key: mukherjee_mc_2025
   title: Using drawings and deep neural networks to characterize the building blocks of human visual similarity
